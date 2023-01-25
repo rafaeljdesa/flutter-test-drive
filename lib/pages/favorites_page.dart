@@ -1,23 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:test_drive/main.dart';
+import '../state/my_app_state.dart';
 
 class FavoritesPage extends StatelessWidget {
-
-  /*@override
-  Widget build(BuildContext context) {
-    var appState = context.watch<MyAppState>();
-    return ListView(
-      children: [
-        ListTile(title: Text('Favorites:')),
-        //for (var pair in appState.favorites) 
-        //  BigCard(pair: pair)
-        ...appState.favorites
-          .map((pair) => BigCard(pair: pair))
-          .toList(growable: false)
-      ],
-    );
-  }*/
 
   @override
   Widget build(BuildContext context) {
